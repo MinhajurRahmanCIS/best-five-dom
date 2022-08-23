@@ -1,150 +1,71 @@
-
-
 document.getElementById('player1-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player1-button");
-    const player1Name = document.getElementById("player1-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player1Name.innerText;
-    
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-
-    
-    
-
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-    
-   }  
-
+    playerSelectedV('player1-button', "player1-name");
+ 
 })
+
 document.getElementById('player2-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player2-button");
-    const player2Name = document.getElementById("player2-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player2Name.innerText;
-   
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-    
-    
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-   }  
-
+    playerSelectedV('player2-button', "player2-name");
+ 
 })
+
 document.getElementById('player3-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player3-button");
-    const player3Name = document.getElementById("player3-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player3Name.innerText;
-   
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-    
-    
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-   }  
-
+    playerSelectedV('player3-button', "player3-name");
+ 
 })
+
 document.getElementById('player4-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player4-button");
-    const player4Name = document.getElementById("player4-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player4Name.innerText;
-   
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-    
-    
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-   }  
-
+    playerSelectedV('player4-button', "player4-name");
+ 
 })
+
 document.getElementById('player5-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player5-button");
-    const player5Name = document.getElementById("player5-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player5Name.innerText;
-   
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-    
-    
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-   }  
-
+    playerSelectedV('player5-button', "player5-name");
+ 
 })
+
 document.getElementById('player6-button').addEventListener('click', function () {
     
-    
-    const activeButton = document.getElementById("player6-button");
-    const player6Name = document.getElementById("player6-name")
-
-    const selectPlayer = document.getElementById('player-input');
-    const li = document.createElement('li');
-    li.innerText = player6Name.innerText;
-   
-    
-
-    const totalPlayer = document.querySelector("#player-input").children;
-    
-    
-    if(totalPlayer.length < 5){
-        activeButton.setAttribute("disabled", true);
-        selectPlayer.appendChild(li);
-    }
-   else{
-    alert("No more select left!!");
-   }  
-
+    playerSelectedV('player6-button', "player6-name");
+ 
 })
 
+document.getElementById('player7-button').addEventListener('click', function () {
+    
+    playerSelectedV('player7-button', "player7-name");
+ 
+})
+
+document.getElementById('player8-button').addEventListener('click', function () {
+    
+    playerSelectedV('player8-button', "player8-name");
+ 
+})
+
+document.getElementById('player9-button').addEventListener('click', function () {
+    
+    playerSelectedV('player9-button', "player9-name");
+ 
+})
+
+document.getElementById('player10-button').addEventListener('click', function () {
+    
+    playerSelectedV('player10-button', "player10-name");
+ 
+})
+
+document.getElementById('player11-button').addEventListener('click', function () {
+    
+    playerSelectedV('player11-button', "player11-name");
+ 
+})
+
+document.getElementById('player12-button').addEventListener('click', function () {
+    
+    playerSelectedV('player12-button', "player12-name");
+ 
+})
