@@ -1,4 +1,5 @@
 //Budget calculating
+//PerPlayer Calculate Button
 document.getElementById("calculate-button").addEventListener("click", function(){
 
     
@@ -16,7 +17,7 @@ document.getElementById("calculate-button").addEventListener("click", function()
     playerExpenses.innerText = perPlayerTotalAmount;
     
 })
-
+//Budget Calculate Button
 document.getElementById("calculateTotal-button").addEventListener("click", function(){
 
     const inputManager = document.getElementById("input-manager");
