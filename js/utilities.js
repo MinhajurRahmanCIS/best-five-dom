@@ -1,7 +1,8 @@
 //Using Function to reduce code line also try not use same code twice 
+//Selected-V Function
 function playerSelectedV(playerButton, playersName){
     const activeButton = document.getElementById(playerButton);
-    const playerName = document.getElementById(playersName)
+    const playerName = document.getElementById(playersName);
 
     const selectPlayer = document.getElementById('player-input');
     const li = document.createElement('li');
@@ -17,3 +18,4 @@ function playerSelectedV(playerButton, playersName){
     alert("No more select left!!");
    } 
 }
+

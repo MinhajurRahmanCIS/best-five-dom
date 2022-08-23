@@ -1,3 +1,4 @@
+//Selected V player 
 document.getElementById('player1-button').addEventListener('click', function () {
     
     playerSelectedV('player1-button', "player1-name");
